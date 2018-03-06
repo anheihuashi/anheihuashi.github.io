@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/anheihuashi/anheihuashi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anheihuashi/anheihuashi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+这是对照阮一峰老师做出来最简单的blog
+1. 新建index.html的时候里面内容也不知道哪个字打错了，然后又重新拷贝了教程的代码，
+2. _config.html里面的配置一开始也不懂，原先用的一个项目LessOrMore有个变量有问题，一大堆配置都不知道哪里出问题了，所以就想去弄个最简单默认的_config.html
+，然后百度了一大堆都是好复杂，最后发现一个博客说用命令行
+“jekyll new awesome-site”新建博客，我自己新建了一个项目，把这个项目里面的默认_config.html拷贝过来，然后对比的阮一峰的博客入门,修改了几个配置文件.
+3. 新建博客html的时候把日期写错了，把2017-05-11-hello-world.html打成20117-05-11-hello-world.html，把2017年打成20117，找问题找了半天，瞎了狗眼了。
+4.把原先 _config.html里面的那个变量名字改成空，本地就可以跑起来了，但是github还是有问题，不过不管怎么说自己也重新做过一个jekyll框架，也知道里面对应的原理了
